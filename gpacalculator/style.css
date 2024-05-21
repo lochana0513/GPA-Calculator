@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'poppins',sans-serif;
+
+}
+
+
+:root
+{
+    --bg-color:#fdfdfd;
+    --text-color:#333;
+    --main-color:#2980ba;
+    --white-color:#fdfdfd;
+    --shadow-color: rgba(0,0,0,.2);
+
+}
+
+section{
+   
+    padding: 10rem 7% 2rem;
+
+}
+
+
+.introsection
+{
+margin-bottom: -4rem;
+}
+
+.introsection h1
+{
+  text-align: center;
+  font-size: 4rem;
+  color: var(--main-color);
+}
+.introsection p
+{
+  margin-top: 1rem;
+  text-align: justify;
+
+}
+
+
+.introduction
+{
+margin-top: -6rem;
+}
+
+.introduction h1
+{
+  text-align: center;
+  font-size: 3rem;
+  color: var(--main-color);
+}
+.introduction p
+{
+  margin-top: 1rem;
+  text-align: justify;
+
+}
+
+
+.introduction h2
+{
+  text-align: center;
+  font-size: 2rem;
+ 
+}
+
+.insdiv h2{
+  font-size: 1rem;
+  text-align: left;
+  margin-bottom: .5rem;
+  margin-top: 2rem;
+  margin-left: 4rem;
+ 
+}
+
+.insdiv p{
+  font-size: .9rem;
+  text-align: left;
+  margin-left: 5rem;
+ 
+}
+  .subject {
+    margin-bottom: 20px;
+    border: 1px solid var(--main-color);
+    padding: 10px;
+    border-radius: 5px;
+    width: auto;
+   
+    
+  }
+
+  input[type="text"],
+  input[type="number"] {
+    width: 19%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 1.1rem;
+  }
+
+ .addsub .subinput {
+    width: 30%;
+  }
+
+  input[type="text"]:focus,
+  input[type="number"]:focus {
+    outline: none;
+    border-color: var(--main-color);
+  }
+
+  input[type="text"]:disabled {
+    background-color: #f2f2f2;
+  }
+
+  input[type="submit"] {
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: var(--main-color);
+  }
+
+  #gpa {
+    width: 20%;
+    margin-top: 10px;
+    padding-top: 8px;
+    padding-right: 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 0px;
+    text-align: center;
+    float: right;
+   
+  }
+.subjectFormContainer
+{
+ display: inline;
+}
+
+
+
+.addsub {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  
+  .sub1,
+  .sub2 {
+    margin-bottom: 10px;
+  }
+  
+  .sub1 input,
+  .sub2 input {
+    margin-left: 10px;
+  }
+
+.btn {
+    display: inline-block;
+    padding: .6rem 2.0rem;
+    background: var(--main-color);
+    border-radius: .6rem;
+    box-shadow: 0 .2rem .5rem var(--shadow-color);
+    font-size: .7rem;
+    color: var(--white-color);
+    letter-spacing: .1rem;
+    border: .2rem solid transparent;
+    font-weight: 600;
+    margin-bottom: 4rem;
+    float: right;
+   
+    
+ 
+  }
+
+ 
+  .btn:hover{
+    background: transparent;
+    color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.addnewamin
+{
+ display: flex;
+    flex-direction: column;
+    align-items: right;
+}
+.addnewdiv .btn{
+ float: right;
+ margin-bottom: 1rem;
+ 
+}
+
+
+/* CSS styles for the dynamically created "Remove" button */
+.remove-button {
+    background-color: #ff6347; /* Red color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    padding: 5px 10px; /* Padding */
+    cursor: pointer; /* Cursor style */
+    border-radius: 4px; /* Rounded corners */
+    margin-left: 1rem;
+  }
+  
+  .remove-button:hover {
+    background-color: #d64424; /* Darker red color on hover */
+  }
+
+   #subjectFormContainer
+  {
+    margin-top: 5rem;
+   
+  }
+
+
+  .generatediv .btn{
+    float: right;
+    margin-top: 1rem;
+   
+  }
+
+  
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 7%;
+  background: var(--main-color);
+
+}
+
+.footer-text p{
+  font-size: 1rem;
+  color: var(--white-color);
+}
+
+.footer-iconTop a{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: .8rem;
+  background: var(--white-color);
+  border-radius: .8rem;
+  border: .2rem solid var(--main-color);
+  outline: .2rem solid transparent;
+
+}
+.footer-iconTop a:hover{
+   outline-color:  var(--white-color);
+}
+
+.footer-iconTop a i{
+  font-size: 1.4rem ;
+  color: #333;
+}
+
+
+  
+  @media (max-width:1513px) 
+  {
+    input[type="text"],
+    input[type="number"] {
+      width: 17%;
+  }  
+  }
+  @media (max-width:1144px) 
+  {
+    input[type="text"],
+    input[type="number"] {
+      width: 17%;
+  }  
+  }
+  @media (max-width:1131px) 
+  {
+    input[type="text"],
+    input[type="number"] {
+      width: 15%;}
+  }  
+
+  @media (max-width:922px) 
+{
+
+  .introsection
+  {
+      margin-bottom: -4rem;
+  }
+  .introsection h1
+{
+ 
+  font-size: 2rem;
+ 
+}
+
+.introduction
+{
+    margin-top: -6rem;
+}
+.introduction h1
+{
+
+font-size: 1.5rem;
+
+}
+
+.introduction h2
+{
+  text-align: center;
+  font-size: 1rem;
+ 
+}
+
+
+.insdiv h2{
+ 
+  text-align: left;
+  margin-bottom: .5rem;
+  margin-top: 2rem;
+  margin-left: 0rem;
+ 
+}
+
+.insdiv p{
+  font-size: .9rem;
+  text-align: left;
+  margin-left: 1rem;
+ 
+}
+
+  .subject {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+    
+  }
+
+  input[type="text"],
+  input[type="number"] {
+    width: 90%;
+   
+   
+  }
+
+
+
+  #gpa {
+    width: 100%;
+   
+    text-align: center;
+   
+   
+  }
+
+ 
+
+  .addsub {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .sub1,
+  .sub2 {
+  
+    margin-right: 10px; /* Adjust spacing between the sub containers */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .addsub .subinput {
+    width: 100%;
+    margin-left: 0rem;
+    align-items: center;  
+ 
+  }
+
+  .createsubdiv .btn{
+    float: right;
+    margin-right: .6rem;
+    margin-left: 0rem;
+  }
+
+  #subjectFormContainer
+  {
+    margin-top: 5rem;
+  }
+
+  .remove-button {
+   width: 90%;
+   margin-bottom: 1rem;
+   padding: 10px;
+  }
+
+}
+
+
+
+@media (max-width: 512px)
+{
+   
+
+    .footer
+    {
+        flex-direction: column-reverse;
+    }
+
+    .footer p
+    {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+}
